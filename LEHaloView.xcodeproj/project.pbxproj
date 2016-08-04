@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4079A51E1D53696A00E07B3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4079A51D1D53696A00E07B3C /* main.m */; };
+		4079A5211D53696A00E07B3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4079A5201D53696A00E07B3C /* AppDelegate.m */; };
+		4079A5241D53696A00E07B3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4079A5231D53696A00E07B3C /* ViewController.m */; };
+		4079A5271D53696A00E07B3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4079A5251D53696A00E07B3C /* Main.storyboard */; };
+		4079A5291D53696A00E07B3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4079A5281D53696A00E07B3C /* Assets.xcassets */; };
+		4079A52C1D53696A00E07B3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4079A52A1D53696A00E07B3C /* LaunchScreen.storyboard */; };
+		4079A5371D53696A00E07B3C /* LEHaloViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4079A5361D53696A00E07B3C /* LEHaloViewTests.m */; };
+		4079A5421D53696A00E07B3C /* LEHaloViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4079A5411D53696A00E07B3C /* LEHaloViewUITests.m */; };
+		4079A5531D53698B00E07B3C /* LEHaloView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4079A5521D53698B00E07B3C /* LEHaloView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4079A5331D53696A00E07B3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4079A5111D53696A00E07B3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4079A5181D53696A00E07B3C;
+			remoteInfo = LEHaloView;
+		};
+		4079A53E1D53696A00E07B3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4079A5111D53696A00E07B3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4079A5181D53696A00E07B3C;
+			remoteInfo = LEHaloView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4079A5191D53696A00E07B3C /* LEHaloView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEHaloView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4079A51D1D53696A00E07B3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4079A51F1D53696A00E07B3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4079A5201D53696A00E07B3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4079A5221D53696A00E07B3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4079A5231D53696A00E07B3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4079A5261D53696A00E07B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4079A5281D53696A00E07B3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4079A52B1D53696A00E07B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4079A52D1D53696A00E07B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4079A5321D53696A00E07B3C /* LEHaloViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEHaloViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4079A5361D53696A00E07B3C /* LEHaloViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEHaloViewTests.m; sourceTree = "<group>"; };
+		4079A5381D53696A00E07B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4079A53D1D53696A00E07B3C /* LEHaloViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEHaloViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4079A5411D53696A00E07B3C /* LEHaloViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEHaloViewUITests.m; sourceTree = "<group>"; };
+		4079A5431D53696A00E07B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4079A5511D53698B00E07B3C /* LEHaloView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEHaloView.h; sourceTree = "<group>"; };
+		4079A5521D53698B00E07B3C /* LEHaloView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEHaloView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4079A5161D53696A00E07B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4079A52F1D53696A00E07B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4079A53A1D53696A00E07B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4079A5101D53696A00E07B3C = {
+			isa = PBXGroup;
+			children = (
+				4079A51B1D53696A00E07B3C /* LEHaloView */,
+				4079A5351D53696A00E07B3C /* LEHaloViewTests */,
+				4079A5401D53696A00E07B3C /* LEHaloViewUITests */,
+				4079A51A1D53696A00E07B3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4079A51A1D53696A00E07B3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4079A5191D53696A00E07B3C /* LEHaloView.app */,
+				4079A5321D53696A00E07B3C /* LEHaloViewTests.xctest */,
+				4079A53D1D53696A00E07B3C /* LEHaloViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4079A51B1D53696A00E07B3C /* LEHaloView */ = {
+			isa = PBXGroup;
+			children = (
+				4079A54F1D53697600E07B3C /* Classes */,
+				4079A51F1D53696A00E07B3C /* AppDelegate.h */,
+				4079A5201D53696A00E07B3C /* AppDelegate.m */,
+				4079A5221D53696A00E07B3C /* ViewController.h */,
+				4079A5231D53696A00E07B3C /* ViewController.m */,
+				4079A5251D53696A00E07B3C /* Main.storyboard */,
+				4079A5281D53696A00E07B3C /* Assets.xcassets */,
+				4079A52A1D53696A00E07B3C /* LaunchScreen.storyboard */,
+				4079A52D1D53696A00E07B3C /* Info.plist */,
+				4079A51C1D53696A00E07B3C /* Supporting Files */,
+			);
+			path = LEHaloView;
+			sourceTree = "<group>";
+		};
+		4079A51C1D53696A00E07B3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4079A51D1D53696A00E07B3C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4079A5351D53696A00E07B3C /* LEHaloViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				4079A5361D53696A00E07B3C /* LEHaloViewTests.m */,
+				4079A5381D53696A00E07B3C /* Info.plist */,
+			);
+			path = LEHaloViewTests;
+			sourceTree = "<group>";
+		};
+		4079A5401D53696A00E07B3C /* LEHaloViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4079A5411D53696A00E07B3C /* LEHaloViewUITests.m */,
+				4079A5431D53696A00E07B3C /* Info.plist */,
+			);
+			path = LEHaloViewUITests;
+			sourceTree = "<group>";
+		};
+		4079A54F1D53697600E07B3C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4079A5511D53698B00E07B3C /* LEHaloView.h */,
+				4079A5521D53698B00E07B3C /* LEHaloView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4079A5181D53696A00E07B3C /* LEHaloView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4079A5461D53696A00E07B3C /* Build configuration list for PBXNativeTarget "LEHaloView" */;
+			buildPhases = (
+				4079A5151D53696A00E07B3C /* Sources */,
+				4079A5161D53696A00E07B3C /* Frameworks */,
+				4079A5171D53696A00E07B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LEHaloView;
+			productName = LEHaloView;
+			productReference = 4079A5191D53696A00E07B3C /* LEHaloView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4079A5311D53696A00E07B3C /* LEHaloViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4079A5491D53696A00E07B3C /* Build configuration list for PBXNativeTarget "LEHaloViewTests" */;
+			buildPhases = (
+				4079A52E1D53696A00E07B3C /* Sources */,
+				4079A52F1D53696A00E07B3C /* Frameworks */,
+				4079A5301D53696A00E07B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4079A5341D53696A00E07B3C /* PBXTargetDependency */,
+			);
+			name = LEHaloViewTests;
+			productName = LEHaloViewTests;
+			productReference = 4079A5321D53696A00E07B3C /* LEHaloViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4079A53C1D53696A00E07B3C /* LEHaloViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4079A54C1D53696A00E07B3C /* Build configuration list for PBXNativeTarget "LEHaloViewUITests" */;
+			buildPhases = (
+				4079A5391D53696A00E07B3C /* Sources */,
+				4079A53A1D53696A00E07B3C /* Frameworks */,
+				4079A53B1D53696A00E07B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4079A53F1D53696A00E07B3C /* PBXTargetDependency */,
+			);
+			name = LEHaloViewUITests;
+			productName = LEHaloViewUITests;
+			productReference = 4079A53D1D53696A00E07B3C /* LEHaloViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4079A5111D53696A00E07B3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LE;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LeEco;
+				TargetAttributes = {
+					4079A5181D53696A00E07B3C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4079A5311D53696A00E07B3C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4079A5181D53696A00E07B3C;
+					};
+					4079A53C1D53696A00E07B3C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4079A5181D53696A00E07B3C;
+					};
+				};
+			};
+			buildConfigurationList = 4079A5141D53696A00E07B3C /* Build configuration list for PBXProject "LEHaloView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4079A5101D53696A00E07B3C;
+			productRefGroup = 4079A51A1D53696A00E07B3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4079A5181D53696A00E07B3C /* LEHaloView */,
+				4079A5311D53696A00E07B3C /* LEHaloViewTests */,
+				4079A53C1D53696A00E07B3C /* LEHaloViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4079A5171D53696A00E07B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4079A52C1D53696A00E07B3C /* LaunchScreen.storyboard in Resources */,
+				4079A5291D53696A00E07B3C /* Assets.xcassets in Resources */,
+				4079A5271D53696A00E07B3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4079A5301D53696A00E07B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4079A53B1D53696A00E07B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4079A5151D53696A00E07B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4079A5241D53696A00E07B3C /* ViewController.m in Sources */,
+				4079A5211D53696A00E07B3C /* AppDelegate.m in Sources */,
+				4079A51E1D53696A00E07B3C /* main.m in Sources */,
+				4079A5531D53698B00E07B3C /* LEHaloView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4079A52E1D53696A00E07B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4079A5371D53696A00E07B3C /* LEHaloViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4079A5391D53696A00E07B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4079A5421D53696A00E07B3C /* LEHaloViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4079A5341D53696A00E07B3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4079A5181D53696A00E07B3C /* LEHaloView */;
+			targetProxy = 4079A5331D53696A00E07B3C /* PBXContainerItemProxy */;
+		};
+		4079A53F1D53696A00E07B3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4079A5181D53696A00E07B3C /* LEHaloView */;
+			targetProxy = 4079A53E1D53696A00E07B3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4079A5251D53696A00E07B3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4079A5261D53696A00E07B3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4079A52A1D53696A00E07B3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4079A52B1D53696A00E07B3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4079A5441D53696A00E07B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4079A5451D53696A00E07B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4079A5471D53696A00E07B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LEHaloView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeco.leauto.LEHaloView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4079A5481D53696A00E07B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LEHaloView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeco.leauto.LEHaloView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4079A54A1D53696A00E07B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LEHaloViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeco.leauto.LEHaloViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LEHaloView.app/LEHaloView";
+			};
+			name = Debug;
+		};
+		4079A54B1D53696A00E07B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LEHaloViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeco.leauto.LEHaloViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LEHaloView.app/LEHaloView";
+			};
+			name = Release;
+		};
+		4079A54D1D53696A00E07B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LEHaloViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeco.leauto.LEHaloViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LEHaloView;
+			};
+			name = Debug;
+		};
+		4079A54E1D53696A00E07B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LEHaloViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeco.leauto.LEHaloViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LEHaloView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4079A5141D53696A00E07B3C /* Build configuration list for PBXProject "LEHaloView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4079A5441D53696A00E07B3C /* Debug */,
+				4079A5451D53696A00E07B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4079A5461D53696A00E07B3C /* Build configuration list for PBXNativeTarget "LEHaloView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4079A5471D53696A00E07B3C /* Debug */,
+				4079A5481D53696A00E07B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4079A5491D53696A00E07B3C /* Build configuration list for PBXNativeTarget "LEHaloViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4079A54A1D53696A00E07B3C /* Debug */,
+				4079A54B1D53696A00E07B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4079A54C1D53696A00E07B3C /* Build configuration list for PBXNativeTarget "LEHaloViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4079A54D1D53696A00E07B3C /* Debug */,
+				4079A54E1D53696A00E07B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4079A5111D53696A00E07B3C /* Project object */;
+}
